@@ -18,3 +18,5 @@ source ${baseDirForScriptSelf}/environment.sh
 
 
 ${baseDirForScriptSelf}/install/bin/cmakeLearnApp
+
+#https://linuxhandbook.com/source-command/
