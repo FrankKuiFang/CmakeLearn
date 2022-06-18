@@ -14,6 +14,7 @@ cd ${BuildDir}
   #Release
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo \
       -DCMAKE_INSTALL_PREFIX="${InstallDir}" \
+      -DBUILE_TEST=1 \
       ..
 make
 make install

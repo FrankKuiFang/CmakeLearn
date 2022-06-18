@@ -11,3 +11,11 @@ add_compile_options(-Wall -Wextra -Wpedantic)
 add_definitions(-DENABLE_ME)
 
 add_subdirectory(src)
+
+#*****************************************************************
+# Install files to target directory: ${CMAKE_INSTALL_PREFIX}/bin
+install(FILES 
+        environment.sh
+        demo.sh
+        DESTINATION bin
+        )

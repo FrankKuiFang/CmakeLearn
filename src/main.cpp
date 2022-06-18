@@ -8,4 +8,5 @@ int main(int argc, char** arg) {
     hypod();
     auto a = util::calAbs(-2.9);
     std::cout << "a="<< a << std::endl;
+    return 0;
 }

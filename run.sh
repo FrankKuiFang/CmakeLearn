@@ -11,12 +11,13 @@ baseDirForScriptSelf=$(cd "$(dirname "$0")"; pwd) #bash中获取被执行的脚�
 # echo ${LD_LIBRARY_PATH}
 #方法二：
 source ${baseDirForScriptSelf}/environment.sh
-方法三：
+#方法三：
 # 在一个terminal中执行source xx/cmake-learn/environment.sh;
 # 然后, 在同一个terminal中执行 xx/cmake-learn/install/bin/cmakeLearnApp,之所以在同一个terminal中,是因为这里source设置的环境变量只是
 # 针对当前的terminal,新开一个terminal的话,就没了.
 
 
 ${baseDirForScriptSelf}/install/bin/cmakeLearnApp
+${baseDirForScriptSelf}/install/bin/UtilTestApp
 
 #https://linuxhandbook.com/source-command/
